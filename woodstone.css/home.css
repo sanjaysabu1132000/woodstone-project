@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+.img {
+  border: 2px solid rgb(70, 0, 0);
+  border-radius: 20px;
+  height: 300px;
+  width: 400px;
+}
+.im {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.v:active {
+  border-radius: 10px;
+  transition: 0.2s ease-out;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+.cr:hover {
+  position: relative;
+  bottom: 20px;
+}
+.back{
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../pics/WhatsApp\ Image\ 2023-11-13\ at\ 11.26.25\ AM.jpeg);
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+

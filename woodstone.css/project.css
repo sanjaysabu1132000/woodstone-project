@@ -1,0 +1,20 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card:hover {
+  position: relative;
+  bottom: 20px;
+}
+.v:active{
+  border-radius: 10px;
+transition: 0.2s ease-out;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+}
+.card{
+  border: 3px groove #000000 ;
+}
